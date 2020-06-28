@@ -1,4 +1,4 @@
-# zevvle-python-sdk
+# zevvle_python_sdk
 
 The unofficial Python library and SDK for the [Zevvle](https://zevvle.com) API. 
 
@@ -17,7 +17,7 @@ For now, download the latest release from GitHub.
 ### As an import 
 
 ```python
-from zevvle-python-sdk import zevvle
+from zevvle_python_sdk import zevvle
 
 zev = zevvle.zevvle({$SUPER_SECRET_ZEVVLE_API_KEY})
 
