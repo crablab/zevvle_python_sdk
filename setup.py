@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="crablab", # Replace with your own username
-    version="0.0.2",
+    name="zevvle_python_sdk", 
+    version="0.0.3",
     author="Hugh Wells",
     author_email="hugh@crablab.co.uk",
     description="The unofficial Python library and SDK for the Zevvle API. ",
