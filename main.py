@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 import os, argparse
-import zevvle
+from zevvle import zevvle
 
 if __name__ == "__main__":
     # Load .env vars
