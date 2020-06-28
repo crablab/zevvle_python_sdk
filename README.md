@@ -17,12 +17,14 @@ For now, download the latest release from GitHub.
 ### As an import 
 
 ```python
-from zevvle_python_sdk import zevvle
+from zevvle_python_sdk.zevvle import zevvle
 
 zev = zevvle.zevvle({$SUPER_SECRET_ZEVVLE_API_KEY})
 
 print(zev.list_sim_cards())
 ```
+
+Nb. this is for a file in the directory above the main SDK folder. You will need to adjust this depending on how and where you have placed the library. 
 
 ### As a CLI tool
 
@@ -38,4 +40,5 @@ ZEVVLE_KEY="{$SUPER_SECRET_ZEVVLE_API_KEY}"
 Contributions are always welcome :) 
 
 Specific things on my todo list: 
+- Do argparser for the complicated `call_records` call
 - Write unit tests with mocked endpoints
