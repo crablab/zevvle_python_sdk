@@ -9,6 +9,9 @@ class zevvle():
         :param key: Your Zevvle API key. 
         :param url optional: The Zevvle API URL. 
         """
+        if(not key):
+            raise Exception("Missing API key.")
+        
         self._url = url
         self._header = {"Authorization": "Bearer {}".format(key)}
     
