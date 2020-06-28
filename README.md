@@ -8,9 +8,9 @@ To get an API key, sign in [here](https://developers.zevvle.com/)
 
 ## Installation 
 
-Might publish to PyPI - watch this space. 
+Now [published on PyPI](https://pypi.org/project/zevvle_python_sdk/)! 
 
-For now, download the latest release from GitHub. 
+Run: `pip3 install zevvle_python_sdk`
 
 ## Usage 
 
