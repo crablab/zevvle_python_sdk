@@ -31,7 +31,7 @@ print(zev.list_sim_cards())
 ZEVVLE_KEY="{$SUPER_SECRET_ZEVVLE_API_KEY}"
 ```
 
-2. Run `python3 main.py`
+2. Run `python3 main.py` to get usage instructions 
 
 ## Contributions 
 
